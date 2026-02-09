@@ -55,11 +55,11 @@ const TrackOrder = () => {
   return (
     <div className="p-6 font-monster max-w-lg mx-auto items-center justify-center   bg-white shadow-md rounded-md">
       <Helmet>
-        <title>Track Order | Wearers</title>
+        <title>Track Order | Lyallpur Fashion</title>
         <meta name="description" content="Track your order with order number" />
         <meta
           name="keywords"
-          content="hoodies,order,trackorder,wearers.pk,wearers.store,hoodies for boys"
+          content="hoodies,order,trackorder,lyallpurfashion.pk,lyallpurfashion.store,hoodies for boys"
         />
       </Helmet>
       <h2 className="text-2xl font-bold text-gray-800 text-center mb-4">

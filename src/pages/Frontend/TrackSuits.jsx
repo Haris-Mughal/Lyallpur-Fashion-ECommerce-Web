@@ -14,11 +14,11 @@ const TrackSuits = () => {
   return (
     <div className="bg-gray-50 font-monster min-h-screen">
       <Helmet>
-        <title>Tracksuits | Wearers</title>
-        <meta name="description" content="Wearers Cart page" />
+        <title>Tracksuits | Lyallpur Fashion</title>
+        <meta name="description" content="Lyallpur Fashion Cart page" />
         <meta
           name="keywords"
-          content="cartpage,cart,wearers.pk,wearers.store,hoodies for boys"
+          content="cartpage,cart,lyallpurfashion.pk,lyallpurfashion.store,hoodies for boys"
         />
       </Helmet>
       <div className="container mx-auto px-6 py-8">

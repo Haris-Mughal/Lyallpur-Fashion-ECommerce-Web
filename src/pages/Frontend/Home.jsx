@@ -7,7 +7,7 @@ import FeatCard from "../../components/FeatCard";
 
 export default function Home() {
   useEffect(() => {
-    document.title = "Wearers - Home";
+    document.title = "Lyallpur Fashion - Home";
   }, []);
 
   return (
@@ -15,9 +15,9 @@ export default function Home() {
       <Helmet>
         <meta
           name="description"
-          content="Shop premium hoodies, tracksuits, and more at Wearers"
+          content="Shop premium hoodies, tracksuits, and more at Lyallpur Fashion"
         />
-        <meta name="keywords" content="home, wearers, clothing, fashion" />
+        <meta name="keywords" content="home, lyallpurfashion, clothing, fashion" />
       </Helmet>
       <Carousel />
       <Categories />

@@ -7,14 +7,14 @@ const Contact = () => {
   return (
     <div className="container mx-auto p-6">
       <Helmet>
-        <title>Contact Us | Wearers</title>
+        <title>Contact Us | Lyallpur Fashion</title>
         <meta
           name="description"
-          content="Get in touch with Wearers for customer support, inquiries, or feedback."
+          content="Get in touch with Lyallpur Fashion for customer support, inquiries, or feedback."
         />
         <meta
           name="keywords"
-          content="contact, wearers, support, customer service"
+          content="contact, lyallpurfashion, support, customer service"
         />
       </Helmet>
       <motion.div
@@ -92,7 +92,7 @@ const Contact = () => {
         className="text-center mt-12"
       >
         <p className="text-gray-700">
-          Thank you for choosing Wearers. We’re committed to providing the best
+          Thank you for choosing Lyallpur Fashion. We’re committed to providing the best
           support and services!
         </p>
       </motion.div>

@@ -110,7 +110,7 @@ const ProductDetailsPage = () => {
   return (
     <div className="container mx-auto p-6">
       <Helmet>
-        <title>{product.name} | Wearers</title>
+        <title>{product.name} | Lyallpur Fashion</title>
         <meta
           name="description"
           content={product.description || "Product details"}

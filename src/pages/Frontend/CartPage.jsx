@@ -53,11 +53,11 @@ const CartPage = () => {
     return (
       <div className="flex flex-col justify-center items-center h-screen">
         <Helmet>
-          <title>Cart | Wearers</title>
-          <meta name="description" content="Wearers Cart page" />
+          <title>Cart | Lyallpur Fashion</title>
+          <meta name="description" content="Lyallpur Fashion Cart page" />
           <meta
             name="keywords"
-            content="cartpage,cart,wearers.pk,wearers.store,hoodies for boys"
+            content="cartpage,cart,lyallpurfashion.pk,lyallpurfashion.store"
           />
         </Helmet>
         <div className="text-center font-monster p-10">Your cart is empty.</div>
@@ -73,11 +73,11 @@ const CartPage = () => {
   return (
     <div className="container font-monster mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
       <Helmet>
-        <title>Cart | Wearers</title>
-        <meta name="description" content="Wearers Cart page" />
+        <title>Cart | Lyallpur Fashion</title>
+        <meta name="description" content="Lyallpur Fashion Cart page" />
         <meta
           name="keywords"
-          content="cartpage,cart,wearers.pk,wearers.store,hoodies for boys"
+          content="cartpage,cart,lyallpurfashion.pk,lyallpurfashion.store"
         />
       </Helmet>
       {/* Cart Items Section */}
