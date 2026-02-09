@@ -11,7 +11,7 @@ import {
   ProfileOutlined,
 } from "@ant-design/icons"; // Ant Design Icons
 import Logo from "../../assets/images/Logo/Logo.svg";
-import Wearers from "../../assets/images/Logo/Wearers.svg";
+import lyallpurFashion from "../../assets/images/Logo/Wearers.svg";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -59,7 +59,7 @@ export default function Header() {
           ) : (
             <img
               className="hover:cursor-pointer"
-              src={Wearers}
+              src={lyallpurFashion}
               width={150}
               onClick={() => navigate("/")}
             />

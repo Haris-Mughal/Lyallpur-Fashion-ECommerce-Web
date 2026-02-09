@@ -49,7 +49,7 @@ const FeaturedSection = () => {
             className="w-full sm:w-1/2 flex justify-center"
           >
             <h1 className="font-secondary font-bold text-xxl sm:text-[4rem]">
-              Ahead the Time, Wearers is Latest
+              Ahead the Time, Lyallpur Fashion is Latest
             </h1>
           </motion.div>
           <motion.div

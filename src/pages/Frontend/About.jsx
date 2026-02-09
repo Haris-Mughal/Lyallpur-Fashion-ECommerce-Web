@@ -19,14 +19,14 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | Wearers</title>
+        <title>About Us | Lyallpur Fashion</title>
         <meta
           name="description"
-          content="Learn more about Wearers and our mission to redefine fashion."
+          content="Learn more about lyallpur fashion and our mission to redefine fashion."
         />
         <meta
           name="keywords"
-          content="about, wearers, mission, fashion, clothing"
+          content="about, lyallpur fashion, mission, fashion, clothing"
         />
       </Helmet>
       <div className="text-secondary font-sans min-h-screen flex flex-col">
@@ -63,14 +63,14 @@ const About = () => {
             </h1>
             <div className="font-secondary text-center sm:text-left md:-ml-10 p-5">
               <p className="text-lg text-gray-700 leading-relaxed">
-                At Wearers, we believe that clothing is more than just
+                At lyallpur fashion, we believe that clothing is more than just
                 fabric—it's a way to express individuality, confidence, and
                 creativity. Founded with the mission to redefine modern fashion,
-                Wearers is a clothing brand that blends timeless designs with
+                lyallpur fashion is a clothing brand that blends timeless designs with
                 contemporary aesthetics to create outfits that empower you.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mt-4">
-                Wearers was born from a simple idea: to create high-quality,
+                Lyallpur fashion was born from a simple idea: to create high-quality,
                 stylish, and versatile clothing that fits seamlessly into every
                 lifestyle. From our humble beginnings as a small team of fashion
                 enthusiasts to becoming a trusted name in the industry, we have
