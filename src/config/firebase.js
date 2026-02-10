@@ -7,15 +7,15 @@ import { getAuth } from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 
 // Firebase configuration Production
-const firebaseConfig = {
-  apiKey: "AIzaSyDvy04VUFiQ-g2zjN-QzCEyay9SAzRncMY",
-  authDomain: "wearer-c5407.firebaseapp.com",
-  projectId: "wearer-c5407",
-  storageBucket: "wearer-c5407.firebasestorage.app",
-  messagingSenderId: "541832967101",
-  appId: "1:541832967101:web:8fc66712411d42069f58d4",
-  measurementId: "G-3Z57VN9TKQ",
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDvy04VUFiQ-g2zjN-QzCEyay9SAzRncMY",
+//   authDomain: "wearer-c5407.firebaseapp.com",
+//   projectId: "wearer-c5407",
+//   storageBucket: "wearer-c5407.firebasestorage.app",
+//   messagingSenderId: "541832967101",
+//   appId: "1:541832967101:web:8fc66712411d42069f58d4",
+//   measurementId: "G-3Z57VN9TKQ",
+// };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
