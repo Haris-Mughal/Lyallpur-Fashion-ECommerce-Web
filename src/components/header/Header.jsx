@@ -10,8 +10,8 @@ import {
   PhoneOutlined,
   ProfileOutlined,
 } from "@ant-design/icons"; // Ant Design Icons
-import Logo from "../../assets/images/Logo/Logo.svg";
-import lyallpurFashion from "../../assets/images/Logo/Wearers.svg";
+import Logo from "../../assets/images/Logo/Logo.png";
+import lyallpurFashion from "../../assets/images/Logo/LyallpurFashion.png";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -39,7 +39,8 @@ export default function Header() {
       </div>
 
       <header className="bg-primary shadow-md">
-        <div className="container mx-auto flex items-center justify-between p-4">
+        <div className={"container mx-auto flex items-center justify-between px-4 py-3"}>
+        {/* <div className={"container mx-auto flex items-center justify-between `{isMobile ? (`px-4 py-2`) : (`px-4 py-3`)}`"}> */}
           {/* Mobile Menu Toggle Button */}
           <button
             className="md:hidden text-3xl text-secondary"
@@ -53,14 +54,14 @@ export default function Header() {
             <img
               className="hover:cursor-pointer"
               src={Logo}
-              width={40}
+              width={100}
               onClick={() => navigate("/")}
             />
           ) : (
             <img
               className="hover:cursor-pointer"
               src={lyallpurFashion}
-              width={150}
+              width={160}
               onClick={() => navigate("/")}
             />
           )}
