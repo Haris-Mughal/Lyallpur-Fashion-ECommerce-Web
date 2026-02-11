@@ -6,7 +6,7 @@ import "tailwindcss/tailwind.css";
 const slides = [
   {
     image:
-      "https://i.pinimg.com/1200x/57/c1/9c/57c19c54ee1f91ff42b65a1699c11bc7.jpg",
+      "https://image2url.com/r2/default/images/1770820201218-ec6887c6-f5a2-4ce6-8625-29c9b7e2b162.jpeg",
     text: "Discover the latest fashion trends",
   },
   {
